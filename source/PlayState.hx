@@ -16,7 +16,7 @@ class PlayState extends FlxState
 		blankSprite = new BlankSprite(0,FlxG.height-16,FlxG.width,16); 
 		// プレイヤーを表すスプライトの作成
 		// 地面の衝突判定を行うために、地面スプライトを渡す
-		sprite = new Sprite(blankSprite,350,150,50,50,FlxColor.RED); 
+		sprite = new Sprite(blankSprite,350,150,50,50,FlxColor.BLUE); 
 		// スプライトの追加
 		add(blankSprite);
 		add(sprite);

@@ -6,8 +6,8 @@ import flixel.FlxObject;
 class BlankSprite extends FlxSprite {
 	public function new(x:Float,y:Float,sizeX:Int,sizeY:Int){
 		super(x,y);
-		// 一時的に地面のスプライトに色をつける
-		makeGraphic(sizeX,sizeY,FlxColor.RED);
+		// 
+		makeGraphic(sizeX,sizeY,FlxColor.TRANSPARENT);
 		solid = true;
 		immovable = true;
 	}
