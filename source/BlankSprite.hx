@@ -10,6 +10,5 @@ class BlankSprite extends FlxSprite {
 		makeGraphic(sizeX,sizeY,FlxColor.RED);
 		solid = true;
 		immovable = true;
-		allowCollisions = FlxObject.DOWN;
 	}
 }
